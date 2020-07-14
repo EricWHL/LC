@@ -16,9 +16,10 @@ int main()
     //p = twoSum(a,4,26,q);
     //printf("twosum:%d %d\n",p[0],p[1]);
     //free(p);
-    int a[5] = {1,2,3,4,5};
-    int b[5] = {1,3,4,5,5};
-    int result = game(a,5,b,5);
-    printf("result:%d\n",result);
+    float a = 108.00;
+    char b[100] = {0};
+    sprintf(b,"result:%04d\n",530);
+    printf("aaaaaaaaa %s",b);
     return 0;
 }
+
